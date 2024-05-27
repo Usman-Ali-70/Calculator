@@ -1,68 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica Neue", sans-serif;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #8bc6ec;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .container {
-    background: #000000;
-    padding: 25px;
-    width: 368px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .calc-text {
-    margin-bottom: 20px;
-    padding-left: 5px;
-  }
-  
-  .calc-text p {
-    width: 100%;
-    font-size: 3.5rem;
-    text-align: end;
-    background: transparent;
-    color: #fff;
-    border: none;
-    outline: none;
-    word-wrap: break-word;
-    word-break: break-all;
-    font-size: calc(1.5rem + 2vw);
-  }
-  
-  .calc-keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-  }
-  
-  
-  button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 16px;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #444;
-  }
-  
-  button:active {
-    background-color: #555;
-  }
-  
-  button:focus {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #8bc6ec;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #000000;
+  padding: 25px;
+  width: 368px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.calc-text {
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+
+.calc-text p {
+  width: 100%;
+  font-size: 3.5rem;
+  text-align: end;
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  word-wrap: break-word;
+  word-break: break-all;
+  /* Add this to make the font size responsive */
+  font-size: calc(1.5rem + 2vw);
+}
+
+.calc-keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+button:active {
+  background-color: #555;
+}
+
+button:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
